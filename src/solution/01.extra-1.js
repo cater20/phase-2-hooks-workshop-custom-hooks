@@ -7,7 +7,7 @@ export function useDocumentTitle(title) {
 }
 
 function Home() {
-  useDocumentTitle("testing");
+  useDocumentTitle();
 
   return (
     <div>
